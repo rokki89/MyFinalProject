@@ -1,6 +1,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/content_pager"
-    android:background="#90CAF9"
+    android:background="#ddebf6"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
