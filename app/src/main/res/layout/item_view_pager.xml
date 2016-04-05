@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_pager"
+    android:background="#90CAF9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/fisfdish"
+            android:id="@+id/img_pager_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView style="?android:textAppearanceMedium"
+            android:id="@+id/tvPage"
+            android:padding="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

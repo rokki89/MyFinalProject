@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:background="#90CAF9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:padding="12dp"
+            android:src="@drawable/ice"
+            android:id="@+id/img_pager"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <TextView style="?android:textAppearanceMedium"
+            android:id="@+id/tv_text"
+            android:layout_below="@+id/img_pager"
+            android:padding="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/winter" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
